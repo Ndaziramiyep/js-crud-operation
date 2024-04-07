@@ -1,0 +1,21 @@
+.create_form, .update_form{
+    display: none;
+}
+/*.email{
+    text-transform: lowercase;
+}*/
+.edit{
+    background: blue;
+     color: white;
+     border-radius: 10%;
+     border: 1px solid lightgreen;
+     cursor: pointer;
+}
+.delete{
+    background: red;
+    border-radius: 5px;
+     color: white;
+     border: 1px solid lightgreen;
+     cursor: pointer;
+     
+}

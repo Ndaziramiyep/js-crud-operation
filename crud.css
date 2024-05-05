@@ -19,3 +19,11 @@
      cursor: pointer;
      
 }
+
+.edit2{
+    background: blue;
+     color: white;
+     border-radius: 10%;
+     border: 1px solid lightgreen;
+     cursor: pointer;
+}

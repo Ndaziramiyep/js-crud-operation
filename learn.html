@@ -17,6 +17,12 @@ for (let i = userInput.length - 1; i >= 0; i--) {
 reversedWord += userInput[i];
 }
 
+// Removing numbers from the word
+for (let i = 0; i < reversedWord.length; i++) {
+if (reversedWord[i].match(/[a-zA-Z]/)) {
+cleanedWord += reversedWord[i];
+}
+}
 
 </script>
 </body>

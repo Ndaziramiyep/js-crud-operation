@@ -25,10 +25,11 @@ function readAll(){
 }
 
 function delet(id){
-    data.splice(id,1)
-   // data=data.filter(rec=>rec.id !== id);
+   // data.splice(id,1)
+   data=data.filter(rec=>rec.id !== id);
     readAll();
 }
+
 
 function create(){
     document.querySelector(".create_form").style.display="block";
